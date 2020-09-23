@@ -10,6 +10,9 @@ function ValidarLogin()
          if(userLogin.tipoUsuario == 'admin')
          {
              document.location.href="Principal_a.html";
+         }else if (userLogin.tipoUsuario == 'user')
+         {
+            document.location.href="Principal_p.html";
          }
           
                   
